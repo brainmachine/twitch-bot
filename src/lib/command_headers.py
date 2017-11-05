@@ -2,8 +2,8 @@ from src.config.config import *
 
 commands = {
 	'!test': {
-		'limit': 30,
-		'return': 'This is a test!'
+		'limit': 3,
+		'return': 'This is not a test!'
 	},
 
 	'!randomemote': {
@@ -15,6 +15,16 @@ commands = {
 	'!wow': {
 		'limit': 30,
 		'argc': 3,
+		'return': 'command'
+	}, 
+	'!random': {
+		'limit': 30,
+		'argc': 2,
+		'return': 'command'
+	},
+	'!osc': {
+		'limit': 1,
+		'argc': 2,
 		'return': 'command'
 	}
 }
